@@ -19,5 +19,18 @@ int main(int argc, const char * argv[]) {
     
     printf("char 存储大小: %lu \n",sizeof(char));
 
+    int result;
+    result=sum();
+    printf("x + y = %d \n",result);
     return 0;
+}
+
+ 
+int x;
+int y;
+
+int sum(){
+    x = 10;
+    y = 15;
+    return x+y;
 }
